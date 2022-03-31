@@ -19,6 +19,7 @@ with daily_supply as (
     , avg(price) as eth_price
   from prices.layer1_usd p
   where p.minute >= '2022-03-01' -- first day in positions
+  and symbol = 'ETH'
   group by 1
 )
 select ds.day
@@ -29,3 +30,4 @@ select ds.day
 from daily_supply ds
 inner join positions p on ds.day = p.day
 inner join daily_eth_price_usd dep on ds.day = dep.date
+order by ds.day desc
