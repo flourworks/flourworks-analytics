@@ -1,4 +1,4 @@
--- https://dune.xyz/queries/574664
+-- https://dune.xyz/queries/575378
 -- TODO: This needs optimization.
 -- Also, we should double check that BasicIssuanceModule and ExchangeIssuance events are both getting emitted
 -- Are there any parsing steps that are commonly done that we can migrate into here?
