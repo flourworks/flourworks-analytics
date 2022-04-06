@@ -1,4 +1,4 @@
--- https://dune.xyz/queries/574650
+-- https://dune.xyz/queries/575381
 CREATE TABLE if not exists dune_user_generated.galleon_tokens
     (
       symbol varchar,        
