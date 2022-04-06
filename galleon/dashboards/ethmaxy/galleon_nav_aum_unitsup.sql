@@ -1,3 +1,4 @@
+--https://dune.xyz/queries/575385
 -- ETHMAXY NAV
 -- 0x0FE20E0Fa9C78278702B05c333Cc000034bb69E2
 
