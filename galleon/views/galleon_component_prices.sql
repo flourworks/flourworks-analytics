@@ -1,3 +1,5 @@
+-- this is currently not used - there's no price feed available for astETH, since it's not being traded
+
 -- ETHMAXY address: '\x0FE20E0Fa9C78278702B05c333Cc000034bb69E2'
 
 create view dune_user_generated.galleon_component_prices as 
